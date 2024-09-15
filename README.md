@@ -25,7 +25,7 @@ The neural network was built using PyTorch and consists of the following layers:
 ### Layers:
 1. **Conv2d Layer 1**: Input channels: 1 (grayscale), Output channels: 6, Kernel size: 3
 2. **Conv2d Layer 2**: Output channels: 10, Kernel size: 3
-3. **Fully connected layer 1**: 10 * 61 * 61 input neurons, 1000 output neurons
+3. **Fully connected layer 1**: 16 * 30 * 30 input neurons, 1000 output neurons
 4. **Fully connected layer 2**: 1000 input neurons, 200 output neurons
 5. **Fully connected layer 3**: 200 input neurons, 35 output neurons
 
