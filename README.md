@@ -28,8 +28,8 @@ The neural network was built using PyTorch and consists of the following layers:
 3. **Fully connected layer 1**: 16 * 30 * 30 input neurons, 1000 output neurons
 4. **Fully connected layer 2**: 1000 input neurons, 200 output neurons
 5. **Fully connected layer 3**: 200 input neurons, 50 output neurons
-6. **Fully connected layer 3**: 50 input neurons, 10 output neurons
-7. **Fully connected layer 3**: 10 input neurons, 3 output neurons
+6. **Fully connected layer 4**: 50 input neurons, 10 output neurons
+7. **Fully connected layer 5**: 10 input neurons, 3 output neurons
 
 The model was trained using cross-entropy loss and optimized using the Adam optimizer.
 
